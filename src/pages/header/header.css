@@ -1,0 +1,21 @@
+.navbar{
+    background-color: aqua;
+}
+
+ .navbar .navbar-brand{
+    color: rgb(231, 233, 239);
+ }
+
+ /* Style the navigatin Links */
+ .navbar .nav-link{
+    color: white;
+    text-decoration: none !important; /* Remove underline*/
+    margin-right: 20px;
+ }
+
+ /* Media query for small screens */
+ @media (max-width: 576px){
+    navbar .nav-link{
+        margin-right: 0; /*Remove margin for small screens*/
+    }
+ }
